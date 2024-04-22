@@ -1,0 +1,160 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: outfitFont;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: youngSerifFont;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+.main-image{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.main-header {
+    font-size: 36px;
+    color:black;
+    font-family: youngSerifFont;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.secondary-header {
+    font-size: 24px;
+    color: hsl(14, 45%, 36%);
+    font-family: youngSerifFont;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+
+.terciary-header {
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: outfitFont;
+    font-weight: 650;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+.main-background{
+    background: #F3E5D8;
+}
+
+.secondary-background{
+    background: hsl(0, 0%, 100%);
+    position: relative;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.terciary-background{
+    background: hsl(330, 100%, 98%);
+    position: relative;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.main-paragraph{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    font-family: outfitFont;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.primary-list{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 2;
+    color: hsl(24, 5%, 18%);
+    font-family: outfitFont;
+}
+
+.primary-list li::marker {
+    color: hsl(14, 45%, 36%);
+  }
+
+.terciary-list ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+
+.secondary-list{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    line-height: 2;
+    color: hsl(24, 5%, 18%);
+    font-family: outfitFont;
+}
+
+.terciary-list{
+    padding-right: 5%;
+    padding-left: 2%;
+    line-height: 2;
+    color: hsl(24, 5%, 18%);
+    font-family: outfitFont;
+}
+
+.column-grouping{
+    display:flex;
+}
+
+.column1{
+    width:50%;
+    font-family: outfitFont;
+    padding-top: 3%;
+    color: hsl(24, 5%, 18%);
+    font-size: 16px;
+}
+
+.column1 div {
+    padding-left: 8%;
+}
+
+.column2{
+    width:50%;
+    font-family: outfitFont;
+    color:hsl(14, 45%, 36%);
+    font-weight: 600;
+    padding-top: 3%;
+    font-size: 16px;
+}
+
+.column2 div {
+    padding-left: 8%;
+}
+
